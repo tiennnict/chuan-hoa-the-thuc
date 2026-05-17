@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ND30 Skill — runtime artifacts
+nd30_work/
+unpacked/
+*.bak
+report.json
+*_chuanhoa.docx
+*_baocao.md
+
+# Test inputs (không commit file văn bản thật)
+tests/inputs/*.docx
+tests/inputs/*.doc
