@@ -33,7 +33,6 @@ Skill này **chỉ áp dụng** cho văn bản hành chính của cơ quan nhà 
 
 **Không dùng** cho:
 - Hợp đồng, văn bản thương mại tư nhân.
-- Văn bản quy phạm pháp luật cấp Quốc hội/Chính phủ (thuộc Luật Ban hành VBQPPL, khác Nghị định 30).
 - Sách, báo, tài liệu nghiên cứu.
 
 ---
