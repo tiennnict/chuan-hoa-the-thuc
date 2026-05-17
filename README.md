@@ -1,4 +1,4 @@
-# chuan-hoa-nd30
+# chuan-hoa-the-thuc
 
 **Skill cho Claude.ai** — Chuẩn hóa thể thức và kỹ thuật trình bày văn bản hành chính Việt Nam theo Nghị định số 30/2020/NĐ-CP.
 
@@ -52,7 +52,7 @@ Skill này **chỉ áp dụng** cho văn bản hành chính của cơ quan nhà 
 ## Cấu trúc thư mục
 
 ```
-chuan-hoa-nd30/
+chuan-hoa-the-thuc/
 ├── SKILL.md                          # File skill chính — Claude đọc file này
 ├── references/
 │   ├── phuluc1-the-thuc.md           # Quy định thể thức chi tiết (Phụ lục I)
