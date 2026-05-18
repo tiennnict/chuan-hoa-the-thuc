@@ -12,6 +12,7 @@ Quy tắc:
 from typing import Dict, Optional
 from xml.etree import ElementTree as ET
 from .xml_utils import parse_xml, write_xml_preserve_root_attrs, get_original_xml
+from .table_formatter import run_table_format
 from pathlib import Path
 
 
@@ -542,9 +543,13 @@ def run_phase3(unpacked_dir, classifications: Dict[int, str],
         elif comp_type == 'unknown':
             pass
 
+    # Xử lý bảng — phải chạy trước write vì thao tác trên root in-memory
+    run_table_format(root, report)
+
     write_xml_preserve_root_attrs(
         tree, doc_xml,
         get_original_xml(doc_xml.parent.parent, doc_xml.name)
     )
-    report['phase3'] = phase_report
+
+    report.setdefault('phase3', {}).update(phase_report)
     return report
