@@ -48,32 +48,6 @@ Skill này **chỉ áp dụng** cho văn bản hành chính của cơ quan nhà 
 
 ---
 
-## Cấu trúc thư mục
-
-```
-chuan-hoa-the-thuc/
-├── SKILL.md                          # File skill chính — Claude đọc file này
-├── references/
-│   ├── phuluc1-the-thuc.md           # Quy định thể thức chi tiết (Phụ lục I)
-│   ├── phuluc2-viet-hoa.md           # Quy tắc viết hoa (Phụ lục II)
-│   ├── chuan-ky-thuat.md             # Bảng tham số kỹ thuật, styles XML, header XML
-│   ├── nhan-dien-loai-van-ban.md     # Heuristics + danh sách 29 loại văn bản
-│   ├── loi-go-may.md                 # Danh sách lỗi gõ máy + regex
-│   └── template-bao-cao.md           # Template cố định cho báo cáo đầu ra
-├── scripts/
-│   ├── normalize.py                  # Script xử lý chính (Phase 1–7 + report)
-│   └── data/
-│       └── typo_dict.json            # Từ điển lỗi chính tả
-├── tests/
-│   ├── inputs/                       # File mẫu đầu vào (không commit tài liệu thật)
-│   └── expected/                     # Kết quả mong đợi để so sánh
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
----
-
 ## Quy trình xử lý tổng quan
 
 Skill thực hiện 8 giai đoạn tuần tự, không đảo thứ tự:
